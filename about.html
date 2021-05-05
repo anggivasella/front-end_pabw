@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>About - Anggi Web</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	</head>
+	<body class="subpage">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="logo">
+              <h4>   Anggi Web</h4>
+            </div>  
+            <ul class="navbar-nav" style="margin-left: 65%;">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="calculator.html"> Calculator</a>
+              </li>
+              <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				  Articel
+				</a>
+				<div class="dropdown-menu">
+				  <a class="dropdown-item" href="sarapan.html">Sarapan</a>
+				  <a class="dropdown-item" href="travelling.html">Travelling</a>
+				  <a class="dropdown-item" href="tidur.html">Tidur</a>
+				</div>
+			  </li>
+              <li class="nav-item">
+                <button class="btn nav-link openbtn" onclick="openNav()"><i class="fas fa-bars"></i></button>
+              </li>
+            </ul>
+        </nav>
+        
+    <div class="main">
+        <a class="weatherwidget-io" href="https://forecast7.com/en/0d53101d45/pekanbaru-city/" data-label_1="PEKANBARU" data-label_2="Welcome To Anggi Website" data-theme="original" >PEKANBARU Welcome To Anggi Website</a>
+        <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+
+		<!-- Three -->
+		<div class="container">
+			<h2 class="text-center"><strong>AutoBiografi</strong></h2>
+			<h3 class="text-center"><strong>Anggi Vasella</strong></h3>
+			<div class="row mb-3">
+				<div class="col-sm-4">
+					<img src="gambar/bunga1.JPG" alt="bunga" style="width: 100%;">
+				</div>
+				<div class="col-sm-8 mt-4">
+					<p>	Asalamualikum wr wb perkenalkan nama saya Anggi Vasella Saya Lahir di AirMolek,25 Januari 2001 ,saya Anak ketiga dari tiga bersaudara,disini Saya Hanya akan sedikit Menceritakan tentang Kehidupan Saya dari kecil Hingga Sekarang.</p>
+					<p>Tidak banyak hal masa kecil yang saya ingat, yang saya ingat ketika saya bayi sampai ke saya masuk Taman Kanak-kanak. Ayah saya Bekerja sebagai kepala gudang di suatu perusahan sawit di Indragiri Hulu, ibu saya pernah bercerita bahwa dahulu kami pernah tinggal di perumahan yang disediakan perusahaan perkebunan Kelapa Sawit , namun 4 tahun setelah saya lahir, kami pindah ke desa AirMolek yang tak jauh dari perumahan tersebut.</p>
+					<p>Sampai akhirnya saya masuk Sekolah Dasar Negeri (SDN) dan Sekolah Menengah Pertama Negeri (SMPN) yang jarak nya cukup dekat. Kemudian 3 tahun setelah itu, saya masuk Sekolah Menengah Atas Negeri (SMAN) yang mempunyai akreditasi A.</p>
+					<p>2 tahun berjalan, ayah saya pensiun dari pekerjaannya, dimana saat itu kakak dan abang saya sudah bekerja.Karena usaha dan doa, saya pun lulus SBMPTN di Universitas Islam Negeri Sultan Syarif Kasim RIAU, dengan jurusan Teknik Informatika.</p>
+				</div>
+			</div>
+		</div>
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<h3>Communication with me</h3>
+					<div style="text-align: center;">
+						<a href="https://www.instagram.com/anggi_vasel/" style="color: rgba(226, 84, 84, 0.925);"><i class="fab fa-instagram fa-3x" ></i></a>
+						<a href="https://web.facebook.com/anggi.vasella/" style="color: rgb(67, 102, 255);"><i class="fab fa-facebook fa-3x" ></i></a>
+						<a href="https://github.com/anggivasella" style="color: rgb(112, 21, 79);"><i class="fab fa-github fa-3x" ></i></a>
+					</div>
+					<form action="#" method="post">
+
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+
+					<div class="copyright">
+						&copy; anggi_vasel Design: <a href="#">Web</a>.
+					</div>
+
+				</div>
+			</footer>
+
+		
+	</body>
+</html>
