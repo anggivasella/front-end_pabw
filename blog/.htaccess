@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^home$ index.php?menu=home [QSA] 
+RewriteRule ^blogs$ index.php?menu=blogs [QSA]
+RewriteRule ^kategori$ index.php?page=kategori [QSA]
